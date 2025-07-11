@@ -2,6 +2,5 @@ apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
 kind: Repository
 metadata:
   name: test-jul11-allsamens-repository
-  namespace: ci-hub
 spec:
   url: https://github.com/jdubrick-ai/test-jul11-allsamens
