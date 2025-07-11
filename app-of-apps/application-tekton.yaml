@@ -11,7 +11,7 @@ spec:
     repoURL: https://github.com/jdubrick-ai/test-jul11-allsamens-gitops.git
     targetRevision: main
   destination:
-    namespace: rhdh-app
+    namespace: ci-hub
     server: https://kubernetes.default.svc
   syncPolicy:
     managedNamespaceMetadata:
